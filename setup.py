@@ -26,5 +26,6 @@ setup(name='EasyMIDI',
             'Topic :: Multimedia :: Sound/Audio :: MIDI',
           ],
       keywords = 'Music MIDI Algorithmic Composition',
+      download_url = 'https://github.com/daviddekleer/EasyMIDI/archive/1.0.tar.gz',
       long_description = long_description
 )

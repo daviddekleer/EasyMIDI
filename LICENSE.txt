@@ -1,4 +1,6 @@
 --------------------------------------------------------------------------
+EasyMIDI, Copyright (c) 2015-2017, David de Kleer
+                       <daviddekleer) at )(*outlook . )com>
 MIDUTIL, Copyright (c) 2009-2016, Mark Conway Wirt
                        <emergentmusics) at (gmail . com>
 

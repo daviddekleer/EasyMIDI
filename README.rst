@@ -1,6 +1,8 @@
 **EasyMIDI**
 ============
 
+|docs|
+
 A simple, easy to use algorithmic composition MIDI creator for Python, based on midiutil.
 
 Creating a MIDI file can be as simple as this::
@@ -35,3 +37,8 @@ TODO PyPI - pip install support
 =================
 
 Documentation can be found here: http://easymidi.readthedocs.io
+
+.. |docs| image:: https://readthedocs.org/projects/easymidi/badge/
+    :alt: Documentation Status
+    :scale: 100%
+    :target: https://easymidi.readthedocs.io

@@ -1,8 +1,7 @@
 from setuptools import setup, find_packages
 
-
-#with open('README.rst') as file:
-#    long_description = file.read()
+with open('README.rst') as file:
+    long_description = file.read()
 
 setup(name='EasyMIDI',
       version='1.0',
@@ -26,6 +25,6 @@ setup(name='EasyMIDI',
             'Operating System :: OS Independent',
             'Topic :: Multimedia :: Sound/Audio :: MIDI',
           ],
-      keywords = 'Music MIDI Algorithmic Composition'
-      #long_description=long_description
+      keywords = 'Music MIDI Algorithmic Composition',
+      long_description = long_description
 )

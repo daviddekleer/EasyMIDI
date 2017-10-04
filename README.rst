@@ -28,10 +28,9 @@ Creating a MIDI file can be as simple as this::
 **Installation**
 ================
 
-EasyMIDI is only compatible with Python3. If you have `setuptools` for
-Python 3, you can install the package by running `python3 setup.py install`
-(use `sudo python3 setup.py install` on Linux or `python3 setup.py install --user`).
-TODO PyPI - pip install support
+EasyMIDI is only compatible with Python3. The recommended way of installing is
+to use :code:`pip install EasyMIDI`. You can also install the package by running 
+:code:`python3 setup.py install`.
 
 **Documentation**
 =================

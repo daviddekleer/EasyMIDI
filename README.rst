@@ -34,5 +34,4 @@ TODO PyPI - pip install support
 **Documentation**
 =================
 
-TODO Generate ReadTheDocs documentation...
-
+Documentation can be found here: http://easymidi.readthedocs.io

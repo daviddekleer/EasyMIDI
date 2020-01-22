@@ -37,7 +37,7 @@ from copy import deepcopy
 from difflib import SequenceMatcher
 import os
 
-from .midiutil.MidiFile import MIDIFile
+from .midiutil.MidiFile import MIDIFile, MIDITrack
 
 
 # MUSIC THEORY (MUSICTHEORY) #
@@ -171,9 +171,11 @@ class MusicTheory():
 class EasyMIDI:
     """EasyMIDI handles MIDI files with the help of midiutil."""
 
-    def __init__(self):
+    # It requires the developer to explicitly set the number of tracks
+    # to be able to have more than 1 track
+    def __init__(self, numTracks=1):
         """Initialize a midiutil MIDIFile object."""
-        self.midFile = MIDIFile()
+        self.midFile = MIDIFile(numTracks)
         self.channel = 0
         self.track = 0
 
@@ -221,6 +223,9 @@ class EasyMIDI:
             return
 
         self.channel += 1
+
+        # When add a track, the track number should be accumulated
+        self.track += 1
 
         noteList = track.getNotes()
         instrument = track.getInstrument()

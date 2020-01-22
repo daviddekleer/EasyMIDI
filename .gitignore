@@ -51,3 +51,6 @@ _build/
 
 *.mid
 *.txt
+
+# macOS cache file
+.DS_Store
